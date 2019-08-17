@@ -42,6 +42,8 @@ gem 'font-awesome-sass', '~> 5.6.1'
 gem 'simple_form'
 gem 'open_uri_redirections'
 gem 'nokogiri'
+gem 'dotenv-rails', groups: [:development, :test]
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
