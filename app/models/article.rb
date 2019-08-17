@@ -4,4 +4,5 @@ class Article < ApplicationRecord
 
   validates :title, :author, :date, :summary, :paragraph, :url, presence: true
   validates :title, :url, uniqueness: true
+  mount_uploader :photo, PhotoUploader
 end
