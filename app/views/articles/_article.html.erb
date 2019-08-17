@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="container">
+    <% @articles.each do |article| %>
+      <h1><%= article.title %></h1>
+      <h4><%= article.summary %></h4>
+      <p><%= article.date  %></p> <i><%= article.author %></i>
+      <p><%= article.paragraph %></p>
+    <% end %>
+  </div>
+</div>
